@@ -37,3 +37,36 @@ a{
     transition: 0.2s;
     text-shadow: 5px 5px 5px #000;
 }
+
+/* awal conten */
+.container-conten{
+    height: 90vh;
+    display: flex;
+}
+.leftbar{
+    
+    height: 100%;
+    width: 20%;
+}
+.conten{
+    
+    height: 100%;
+    width: 60%;
+    border-left: 2px solid #000 ;
+    border-right: 2px solid #000;
+}
+.rightbar{
+    
+    height: 100%;
+    width: 20%;
+}
+/* akhir conten */
+
+/* awal footer */
+.container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+/* akhir footer */

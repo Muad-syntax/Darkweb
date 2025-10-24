@@ -6,6 +6,8 @@
 body{
     background: gray;
 }
+
+/* awal navbar */
 .container-navbar ul{
     display: flex;
     color: black;
@@ -37,3 +39,26 @@ a{
     transition: 0.2s;
     text-shadow: 5px 5px 5px #000;
 }
+/* akhir navbar */
+
+/* awal conten */
+.container-conten{
+    height: 80vh;
+}
+.conten{
+    height: 100%;
+    width: 100%;
+}
+/* akhir conten */
+
+/* awal footer */
+.container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: antiquewhite;
+    font-size: 2em;
+    border-top: 2px solid #000 ;
+}
+/* akhir footer */
